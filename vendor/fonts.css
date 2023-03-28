@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./Raleway-Regular.woff2) format('woff2'),
+         url(./Raleway-Regular.woff) format('woff');
+         font-weight:400;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(./Raleway-Medium.woff2) format('woff2'),
+       url(./Raleway-Medium.woff) format('woff');
+  font-weight:500;
+}
+
+
+@font-face {
+    font-family: 'Inter';
+    src: url(./Raleway-Black.woff2) format('woff2'),
+         url(./Raleway-Black.woff) format('woff');
+    font-weight:900;
+}
