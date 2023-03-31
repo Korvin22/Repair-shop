@@ -1,0 +1,125 @@
+.intro {
+  display: flex;
+  margin-left: 67px;
+  margin-right: 62px;
+  max-width: 50%;
+  padding-bottom:224px
+}
+
+.intro__links {
+  padding: 0;
+  margin: 0;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.intro__link {
+  margin-bottom: 74px;
+}
+
+.intro__link_last {
+    margin-bottom:0;
+}
+
+.intro__description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 95px;
+}
+
+.intro__greeting {
+  font-family: "Poppins", "Arial", "sans-serif";
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff0080;
+  margin: 0;
+  padding: 0;
+}
+
+.intro__name {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff0080;
+  margin: 0;
+  padding: 0;
+}
+
+.intro__highlight {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.intro__profession {
+  font-family: Poppins;
+  font-size: 33px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff0080;
+  margin: 0;
+  padding: 0;
+}
+
+.intro__about {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin: 49px 81px 95px 0;
+  max-width:652px;
+}
+.intro__button {
+  width: 274px;
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro__button:first-of-type {
+margin-right:70px;
+}
+
+.intro__email-cv {
+display:flex;
+}
+
+.intro__button_pink {
+  background-color: #ff0080;
+}
+
+.intro__button_transparent {
+  background-color:transparent;
+  border:none;
+  
+}
+
+.button__name {
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left:17.5px;
+  color:white;
+}

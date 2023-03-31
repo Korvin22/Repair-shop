@@ -1,0 +1,49 @@
+.photo {
+  width: 50%;
+  position: relative;
+}
+
+.photo__background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url("../img/Rectangle\ 60.svg");
+  height: 1080px;
+  z-index: 0;
+  display: flex;
+  align-items: end;
+}
+
+.photo__image {
+  margin-left: 75px;
+  margin-right: 44px;
+  margin-top:64px;
+  max-height: 894px;
+  max-width: 567px;
+}
+
+.photo__title {
+  font-family: "Raleway";
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  margin-bottom: 59px;
+  color: white;
+}
+
+.photo__age {
+  font-family: "Raleway";
+  font-size: 126px;
+  font-weight: 300;
+  line-height: 148px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  padding:0;
+  margin:0 0 64px 0;
+}
