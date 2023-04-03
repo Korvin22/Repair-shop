@@ -1,0 +1,36 @@
+.contactMe {
+  max-width: 1708px;
+  margin: 0 auto 193px auto;
+}
+
+.contactMe__background {
+  background-color: #43413f;
+  display: flex;
+  justify-content: space-between;
+  padding: 45px 85px 45px 76px;
+}
+
+.contactMe__text {
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.contactMe__button {
+  margin-right: 70px;
+  border:none;
+
+}
+
+.contactMe__seemore {
+    background-color: transparent;
+}
+
+.contactMe__buttons {
+    display:flex;
+    align-items: center;
+}

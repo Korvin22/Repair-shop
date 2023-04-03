@@ -1,0 +1,11 @@
+.skills {
+    margin: 157px auto 167px auto;
+
+}
+
+.skills__list {
+    margin:0;
+    padding:0;
+display:flex;
+justify-content: space-evenly;
+}

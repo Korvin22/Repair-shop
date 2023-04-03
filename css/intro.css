@@ -107,6 +107,10 @@ display:flex;
   background-color: #ff0080;
 }
 
+.intro__button_withBorder {
+    border: 1px solid white;
+}
+
 .intro__button_transparent {
   background-color:transparent;
   border:none;

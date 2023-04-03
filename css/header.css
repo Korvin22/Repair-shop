@@ -12,6 +12,7 @@
     display:flex;
     justify-content: space-between;
     width:1156px;
+    margin-right:81px;
 }
 
 .header__item {

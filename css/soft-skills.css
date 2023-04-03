@@ -1,0 +1,63 @@
+.soft-skills {
+  margin: 0 106px 246px 106px;
+}
+
+@media screen and (max-width:1680) {
+    .soft-skills {
+        margin: 0 auto 246px auto;
+      }
+}
+
+.soft-skills__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(537px, 537px));
+  grid-template-rows: repeat(auto-fill, minmax(802px, 1fr));
+  row-gap: 51px;
+  column-gap: 48px;
+  list-style-type: none;
+  padding:0;
+  justify-content: center;
+}
+
+.soft-skills__skill {
+  display: flex;
+  flex-direction: column;
+  background-color: #43413f;
+  padding-bottom:105px;
+}
+
+.soft-skills__rectangle {
+  height: 119px;
+  width: 61px;
+  align-self: flex-end;
+}
+
+.soft-skills__image {
+  height: 372px;
+  width: 372px;
+  align-self: center;
+  margin-bottom:28px;
+}
+
+.soft-skills__name {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  color: #ff0080;
+  align-self: center;
+  margin-top:0;
+  margin-bottom:33px;
+}
+
+.soft-skills__desc {
+  font-family: 'Poppins';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  align-self: center;
+  text-align: center;
+  color:white;
+  margin:0;
+}

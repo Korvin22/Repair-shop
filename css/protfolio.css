@@ -1,0 +1,15 @@
+.portfolio {
+    margin:0 106px 158px 106px;
+
+}
+
+.portfolio__list {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(546px, 1fr));
+    grid-template-rows: auto;
+    row-gap: 34px;
+    column-gap: 33px;
+    padding:0;
+    justify-items: center;
+
+}
